@@ -39,10 +39,9 @@ const Home = () => {
     <div className={Style.home}>
       <div className={Style.heroSection}>
         <div className={Style.heroSection_left}>
-          <h1>ICO Launching Funny Token (FUN)</h1>
+          <h1>ICO Launching Aggie Coin (AC)</h1>
           <p>
-            Tempory incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation consequat.
+            Welcome to Aggie Coin Dashboard
           </p>
 
           <div className={Style.heroSection_left_btn}>

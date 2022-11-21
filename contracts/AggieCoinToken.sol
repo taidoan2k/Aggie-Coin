@@ -2,9 +2,9 @@
 pragma solidity >=0.4.22 <0.9.0;
 
 contract FunToken {
-    string public name = "FunToken";
-    string public symbol = "FUN";
-    string public standard = "FunToken v.0.1";
+    string public name = "AggieCoinToken";
+    string public symbol = "AC";
+    string public standard = "AggieCoinToken v.0.1";
     uint256 public totalSupply;
     address public ownerOfContract;
     uint256 public _userId;

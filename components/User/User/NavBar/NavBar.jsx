@@ -21,7 +21,7 @@ const NavBar = () => {
 
       <div className={Style.navBar_box}>
         <div className={Style.navBar_box_left}>
-          <h1> FUNNY Token</h1>
+          <h1> Aggie Coin Dashboard</h1>
         </div>
         <div className={Style.navBar_box_right}>
           <p>
