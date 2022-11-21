@@ -3,7 +3,7 @@ import Image from "next/image";
 
 //INTERNAL IMPORT
 import Style from "./Transfer.module.css";
-import funToken from "../../../../assets/funtoken.png";
+import AC from "../../../../assets/AC.png";
 
 const Transfer = ({
   NoOfToken,
@@ -31,10 +31,10 @@ const Transfer = ({
             </p>
             <p>
               Token Symbol{" "}
-              <span className={Style.funToken}>
+              <span className={Style.AC}>
                 <Image
-                  className={Style.funToken_img}
-                  src={funToken}
+                  className={Style.AC_img}
+                  src={AC}
                   alt="symbol"
                   width={70}
                   height={70}
