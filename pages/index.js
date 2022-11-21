@@ -5,7 +5,7 @@ import Image from "next/image";
 import { ICOContext } from "../context/ERC20ICO";
 import Style from "../styles/index.module.css";
 import banner from "../assets/home-banner.png";
-import FunToken from "../assets/funtoken.png";
+import AC from "../assets/AC.png";
 import User from "../components/User/User/User";
 import Transfer from "../components/User/User/Transfer/Transfer";
 
@@ -51,35 +51,35 @@ const Home = () => {
         </div>
         <div className={Style.heroSection_right}>
           <Image
-            src={FunToken}
+            src={AC}
             alt="banner"
             width={300}
             height={300}
             className={Style.heroSection_right_img_one}
           />
           <Image
-            src={FunToken}
+            src={AC}
             alt="banner"
             width={200}
             height={200}
             className={Style.heroSection_right_img}
           />
           <Image
-            src={FunToken}
+            src={AC}
             alt="banner"
             width={100}
             height={100}
             className={Style.heroSection_right_img}
           />
           <Image
-            src={FunToken}
+            src={AC}
             alt="banner"
             width={50}
             height={50}
             className={Style.heroSection_right_img}
           />
           <Image
-            src={FunToken}
+            src={AC}
             alt="banner"
             width={20}
             height={20}

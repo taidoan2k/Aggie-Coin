@@ -3,7 +3,7 @@ import Image from "next/image";
 
 //INTERNAL IMPORT
 import Style from "./User.module.css";
-import funToken from "../../../assets/funtoken.png";
+import AC from "../../../assets/AC.png";
 
 const User = ({ holderArray }) => {
   return (
@@ -21,7 +21,7 @@ const User = ({ holderArray }) => {
           <div className={Style.user_box_img}>
             <Image
               className={Style.user_box_img_img}
-              src={funToken}
+              src={AC}
               alt="avator"
               width={35}
               height={35}

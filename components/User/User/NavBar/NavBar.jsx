@@ -5,7 +5,7 @@ import Style from "./NavBar.module.css";
 import { ICOContext } from "../../../../context/ERC20ICO";
 import Image from "next/image";
 import loader from "../../../../assets/loder.gif";
-import funToken from "../../../../assets/funtoken.png";
+import AC from "../../../../assets/AC.png";
 
 const NavBar = () => {
   const { account, accountBallanc, userId, completed } = useContext(ICOContext);
