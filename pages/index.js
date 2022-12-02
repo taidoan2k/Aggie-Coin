@@ -40,9 +40,9 @@ const Home = () => {
       <div className={Style.heroSection}>
         <div className={Style.heroSection_left}>
           <h1>ICO Launching Aggie Coin (AC)</h1>
-          <p>
+          <p><b>
             Welcome to Aggie Coin Dashboard
-          </p>
+            </b></p>
 
           <div className={Style.heroSection_left_btn}>
             <button className={Style.btn}>Whitepaper</button>
