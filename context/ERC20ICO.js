@@ -4,17 +4,17 @@ import { ethers } from "ethers";
 
 //INTERNAL IMPORT
 import {
-  funTokenAddress,
-  funTokenABI,
-  funTokenSaleAddress,
-  funTokenSaleABI,
+  AggieCoinTokenAddress,
+  AggieCoinTokenABI,
+  AggieCoinTokenSaleAddress,
+  AggieCoinTokenSaleABI,
 } from "./constant";
 
 const fetchFunTokenContract = (signerOrProvider) =>
-  new ethers.Contract(funTokenAddress, funTokenABI, signerOrProvider);
+  new ethers.Contract(AggieCoinTokenAddress, AggieCoinTokenABI, signerOrProvider);
 
 const fetchFunTokenSaleContract = (signerOrProvider) =>
-  new ethers.Contract(funTokenSaleAddress, funTokenSaleABI, signerOrProvider);
+  new ethers.Contract(AggieCoinTokenSaleAddress, AggieCoinTokenSaleABI, signerOrProvider);
 
 export const ICOContext = React.createContext();
 
@@ -31,7 +31,7 @@ export const ERC20ICONProvider = ({ children }) => {
   const [TokenSymbol, setTokenSymbol] = useState("");
   const [TokenOwner, setTokenOwner] = useState("");
   const [TokenOwnerBal, setTokenOwnerBal] = useState("");
-  const funToken = "ICO Name: FunToken";
+  const funToken = "ICO Name: AggieCoinToken";
 
   //-----SETTIONEOUT
   const [completed, setCompleted] = useState(false);
@@ -64,7 +64,7 @@ export const ERC20ICONProvider = ({ children }) => {
       const connection = await web3Modal.connect();
       const provider = new ethers.providers.Web3Provider(connection);
       const signer = provider.getSigner(
-        "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"
+        "r"
       );
       const contract = fetchFunTokenContract(signer);
 
@@ -87,7 +87,7 @@ export const ERC20ICONProvider = ({ children }) => {
 
       //OWNER TOKEN BALANC
       const balanceToken = await contract.balanceOf(
-        "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"
+        "0xF14EcA821F1836aadabe285231b0779c3CB1A344"
       );
       setTokenOwnerBal(balanceToken.toNumber());
     } catch (error) {

@@ -11,11 +11,11 @@ contract AggieCoinTokenSale {
 
     event Sell(address _buyer, uint256 _amount);
 
-    constructor(FunToken _tokenContract, uint256 _tokenPrice) {
-        admin = msg.sender;
-        tokenContract = _tokenContract;
-        tokenPrice = _tokenPrice;
-    }
+    // constructor(acnToken _tokenContract, uint256 _tokenPrice) {
+    //     admin = msg.sender;
+    //     tokenContract = _tokenContract;
+    //     tokenPrice = _tokenPrice;
+    // }
 
     function multiply(uint256 x, uint256 y) internal pure returns (uint256 z) {
         require(y == 0 || (z = x * y) / y == x);

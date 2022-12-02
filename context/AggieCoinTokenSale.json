@@ -1,12 +1,12 @@
 {
   "_format": "hh-sol-artifact-1",
-  "contractName": "FunTokenSale",
-  "sourceName": "contracts/FunTokenSale.sol",
+  "contractName": "AggieCoinTokenSale",
+  "sourceName": "contracts/AggieCoinTokenSale.sol",
   "abi": [
     {
       "inputs": [
         {
-          "internalType": "contract FunToken",
+          "internalType": "contract AggieCoinToken",
           "name": "_tokenContract",
           "type": "address"
         },
@@ -63,7 +63,7 @@
       "name": "tokenContract",
       "outputs": [
         {
-          "internalType": "contract FunToken",
+          "internalType": "contract AggieCoinToken",
           "name": "",
           "type": "address"
         }

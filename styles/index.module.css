@@ -23,7 +23,10 @@
 
 .heroSection_left p{
     color: #B492E9;
-    font-size: 1.2rem;
+    font-size: 3.2rem;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    
 }
 
 .heroSection_left_btn{
